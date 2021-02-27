@@ -6,4 +6,6 @@ import com.longcai.entity.User;
 
 public interface UserService {
     List<User> findAll();
+    
+    void insertUser(User user);
 }
