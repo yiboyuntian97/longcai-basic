@@ -14,6 +14,11 @@ import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * 数据源配置类
+ * @author Administrator
+ *
+ */
 @Slf4j
 @Configuration
 public class DataSourceConfig {
